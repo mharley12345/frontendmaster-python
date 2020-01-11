@@ -1,5 +1,5 @@
 ### Python Walkthru Project
-[walkthru url](https://frontendmasters.com/courses/python)
+[walkthru video url](https://frontendmasters.com/courses/python)<br/>
 [project walkthru website](https://www.learnpython.dev/)
 
 ## Special Thanks To @nnja
