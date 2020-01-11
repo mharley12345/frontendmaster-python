@@ -1,0 +1,115 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\mharl\pyworkshop> & c:/Users/mharl/pyworkshop/env/Scripts/activate.ps1
+(env) PS C:\Users\mharl\pyworkshop> & c:/Users/mharl/pyworkshop/env/Scripts/python.exe
+Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 22:39:24) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 4
+>>> y = 0
+>>> # Integers
+>>> 
+>>> x = 5.0
+>>> y = -3938
+>>> z = 0
+>>> # Float
+>>> x = 5.0 
+>>> y = -3484.5
+>>> z = 0.0
+>>> z
+0.0
+>>> y
+-3484.5
+>>> x
+5.0
+>>> x = 42j
+>>> x
+42j
+>>> type(y)
+<class 'float'>
+>>> a = 1
+>>> type(a)
+<class 'int'>
+>>> int(5)
+5
+>>> float(3.0)
+3.0
+>>> x + y
+(-3484.5+42j)
+>>> x =10
+>>> y = 20
+>>> x + y
+30
+>>> x / y
+0.5
+>>> 'Hello'
+'Hello'
+>>> "Hello"
+'Hello'
+>>> "Hello N's"
+"Hello N's"
+>>> "Hello" + "N's"
+"HelloN's"
+>>> "Hello" + " N's" 
+"Hello N's"
+>>> long_string = """ 
+... 12345 
+... abcd 
+... efgh
+... """
+>>> 
+>>> long_string
+'\n12345 \nabcd \nefgh\n'
+>>> name = "Mike"
+>>> f"Hello,{name}"
+'Hello,Mike'
+>>> ^L
+>>> ^L
+>>> 
+>>> 
+>>> 
+>>> ^L^L^L^L
+>>> 
+>>> 
+>>> 
+>>> ^L
+>>> ^L
+>>> 
+>>> name
+'Mike'
+>>> a
+1
+>>> b
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'b' is not defined
+>>> x = 42
+>>> y = 3/4
+>>> z = int("7")
+>>> a = float(5)
+>>> name = "Mike"
+>>> type(x)
+<class 'int'>
+>>> type(y)
+<class 'float'>
+>>> type(z)
+<class 'int'>
+>>> type(a)
+<class 'float'>
+>>> type(name)
+<class 'str'>
+>>> rent = 480
+>>> per_day = rent / 30 
+>>> print(per_day)
+16.0
+>>> print("Hello World")
+Hello World
+>>> print("My name is", name)
+My name is Mike
+>>> print("Hello, my name is %s" % name)
+Hello, my name is Mike
+>>> print(f"Hello,my name is {name} and I pay ${rent / 30} in rent per day")
+Hello,my name is Mike and I pay $16.0 in rent per day
+>>>
