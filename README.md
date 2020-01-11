@@ -5,5 +5,5 @@
 ## Special Thanks To 
 [@nnja](https://github.com/nnja)
 
-# Activate V Env
+# Activate Virtual Env
  from project dir type  env\scripts\activate
